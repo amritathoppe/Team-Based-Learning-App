@@ -1,0 +1,69 @@
+.TabTopics.table.dataTable thead>tr>td {
+	padding-right: 161px !important;
+}
+
+.TabTopics.table-bordered>thead>tr>td {
+	border: 1px solid black !important;
+}
+
+.NavBarPosTopics1{
+    position: relative;
+    left: 525PX !important
+}
+
+.NavBarPosTopics2{
+    position: relative;
+    RIGHT: 160PX !important;
+}
+
+#Topics.TabTopics {
+	position: relative;
+	left: 110px;
+}
+
+#Department.TabTopics {
+	position: relative;
+	left: 255px;
+}
+
+.LenPostn {
+	position: relative;
+	left: 6px;
+}
+
+.ColorSetThead {
+	color: black;
+	background-color: darkkhaki;
+}
+
+.ColorSetTbody {
+	color: black;
+}
+
+.table-bordered>tbody>tr>td {
+	border: 1px solid #ddd !important;
+}
+
+.table-bordered>thead>tr>td {
+	
+    background-color: black !important;
+    color: white!important;
+}
+
+.PageNumberTitle {
+	top: 14px;
+	left: 220px;
+}
+
+.PageNumberBody {
+	width: 75% !important;
+	flex: 1 1 75% !important;
+	bottom: 16px;
+	left: 318px;
+	max-width: 75% !important;
+}
+
+.btnalign {
+	position: relative;
+	left: 990px !important;
+}

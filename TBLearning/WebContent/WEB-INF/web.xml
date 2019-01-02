@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>edu.umsl.java.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>timerFilter</filter-name>
+    <filter-class>filter.TimerFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>timerFilter</filter-name>
+    <url-pattern>/admin.jsp</url-pattern>
+    <url-pattern>/LoginServlet.jsp</url-pattern>
+    <url-pattern>/instructor.jsp</url-pattern>
+    <url-pattern>/registrationform.jsp</url-pattern>
+    <url-pattern>/createcourse.jsp</url-pattern>
+    <url-pattern>/course.jsp</url-pattern>
+    <url-pattern>/department.jsp</url-pattern>
+    <url-pattern>/questions.jsp</url-pattern>
+    <url-pattern>/quiz_creation.jsp</url-pattern>
+    <url-pattern>/student_creation.jsp</url-pattern>
+    <url-pattern>/topics.jsp</url-pattern>
+  </filter-mapping>
+</web-app>
